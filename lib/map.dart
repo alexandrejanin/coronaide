@@ -37,7 +37,8 @@ class GoogleMaps extends StatelessWidget {
             ..center = gmaps.LatLng(48.8566, 2.3522)
             ..zoomControl = false
             ..fullscreenControl = false
-            ..mapTypeControl = false,
+            ..mapTypeControl = false
+            ..clickableIcons = false,
         );
 
         return elem;

@@ -23423,6 +23423,7 @@ s.m(0,"center",$.ZH().a.cg(new B.kw(r)))
 s.m(0,"zoomControl",!1)
 s.m(0,"fullscreenControl",!1)
 s.m(0,"mapTypeControl",!1)
+s.m(0,"clickableIcons",!1)
 P.vR(J.S(J.S(t.i(0,"google"),"maps"),"Map"),[q,$.ZI().a.cg(new B.kC(s))])
 return q},
 $S:146}
