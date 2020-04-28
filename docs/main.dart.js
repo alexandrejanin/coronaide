@@ -23333,7 +23333,7 @@ H:function(a){var t=null,s=4286363494
 return M.fy(A.hq(!1,!1,t,"Demander de l'aide"),B.w_(H.c([D.If(new P.r(s),"Proposer une aide physique signifie que vous aidez quelqu'un en personne. En allant faire des courses ou en accompagnant quelqu'un par exemple.","Aide en personne"),new T.aT(t,16,t,t),D.If(new P.r(s),"Vous souhaitez aider les personnes autour de vous ? Proposez une aide \xe0 distance par du soutient moral, de l'aide aux devoirs...","Aide \xe0 distance")],u.p),C.ch),t)}}
 Y.vD.prototype={
 H:function(a){var t=null,s=u.p
-return M.fy(A.hq(!1,!0,"Que faisons-nous aujourd'hui ?","Bienvenue"),new T.bj(C.kM,T.fF(C.bk,H.c([new Y.w6("Voir la Carte",new P.r(4289239782),new Y.Ir(a),t),new T.bj(C.au,T.f6(H.c([Y.mR(C.bn,50,new Y.Is(a),"Proposer mon aide",1/0),new T.aT(t,8,t,t),Y.mR(new P.r(4286363494),50,new Y.It(a),"Demander de l'aide",1/0),new T.aT(t,8,t,t),Y.mR(new P.r(4293078116),50,new Y.Iu(a),"Voir les activit\xe9s",1/0)],s),C.a3,C.T,C.U),t)],s),C.aR),t),new Y.tO(t))}}
+return M.fy(A.hq(!1,!0,"Que faisons-nous aujourd'hui ?","Bienvenue"),new T.bj(C.kM,T.fF(C.bk,H.c([new Y.w6("Voir la Carte",new P.r(4289239782),new Y.Ir(a),t),new T.bj(C.au,T.f6(H.c([Y.mR(C.bn,50,new Y.Is(a),"Proposer mon aide",1/0),new T.aT(t,8,t,t),Y.mR(new P.r(4286363494),50,new Y.It(a),"Demander de l'aide",1/0),new T.aT(t,8,t,t),Y.mR(new P.r(4293078116),50,new Y.Iu(a),"Activit\xe9s",1/0)],s),C.a3,C.T,C.U),t)],s),C.aR),t),new Y.tO(t))}}
 Y.Ir.prototype={
 $0:function(){var t=u.z,s=D.eE(new Y.Iq(),null,t)
 K.ed(this.a).eo(s,t)},

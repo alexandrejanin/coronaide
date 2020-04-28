@@ -63,7 +63,7 @@ class Home extends StatelessWidget {
                   ),
                   SizedBox(height: 8),
                   ColorButton(
-                    text: 'Voir les activités',
+                    text: 'Activités',
                     color: Color(0xFFE32C64),
                     onTap: () {
                       Navigator.push(
