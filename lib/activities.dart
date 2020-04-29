@@ -1,4 +1,6 @@
 import 'package:coronaide/header.dart';
+import 'package:coronaide/home.dart';
+import 'package:coronaide/random_activity.dart';
 import 'package:coronaide/search_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -12,6 +14,21 @@ class Activities extends StatelessWidget {
       ),
       body: ListView(
         children: [
+          Padding(
+            padding: const EdgeInsets.all(8),
+            child: ColorButton(
+              text: 'Activité Aléatoire',
+              color: Color(0xFFFF711B),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  CupertinoPageRoute(
+                    builder: (context) => RandomActivity(),
+                  ),
+                );
+              },
+            ),
+          ),
           Padding(
             padding: const EdgeInsets.all(8),
             child: Row(

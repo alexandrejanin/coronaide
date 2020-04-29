@@ -9,29 +9,33 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (kIsWeb)
-      return Stack(
-        alignment: Alignment.center,
-        children: [
-          Container(
-            decoration: BoxDecoration(
-              boxShadow: [
-                BoxShadow(
-                  blurRadius: 10,
-                  color: Colors.black26,
-                ),
-              ],
-            ),
-            child: AspectRatio(
-              aspectRatio: 1 / 2,
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(20),
-                child: ClipRect(
-                  child: AppInner(),
+      return LayoutBuilder(
+        builder: (context, constraints) {
+          if (constraints.maxWidth / constraints.maxHeight < 10 / 16)
+            return AppInner();
+
+          return Center(
+            child: Container(
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    blurRadius: 10,
+                    color: Colors.black26,
+                  ),
+                ],
+              ),
+              child: AspectRatio(
+                aspectRatio: 1 / 2,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(20),
+                  child: ClipRect(
+                    child: AppInner(),
+                  ),
                 ),
               ),
             ),
-          ),
-        ],
+          );
+        },
       );
 
     return AppInner();
